@@ -1,0 +1,15 @@
+{% extends "mail/layout.html" %}
+{% load static %}
+
+{% block body %}
+    Merdinha e Bostinha
+        <img style="margin-left: 60%;
+                    margin-top: -10%;"
+                    src="{% static 'mail/madbra.gif' %}"
+                    alt="madbra" width="150">
+{% endblock %}
+
+{% block script %}
+    {% load static %}
+    <script src="{% static 'mail/inbox.js' %}"></script>
+{% endblock %}
